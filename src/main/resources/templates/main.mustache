@@ -1,5 +1,23 @@
-<html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список сообщений</title>
+</head>
 <body>
-   <div>{{some}}</div>
+<div>Список сообщний</div>
+<div>
+    <form method="post">
+        <input type="text" name="text" placeholder="Введите сообщение"/>
+        <input type="text" name="tag" placeholder="Тэг"/>
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+{{#messages}}
+    <div>
+        <b>{{id}} </b>
+        <span>{{text}}</span>
+        <i>{{tag}}</i>
+    </div>
+{{/messages}}
 </body>
 </html>
