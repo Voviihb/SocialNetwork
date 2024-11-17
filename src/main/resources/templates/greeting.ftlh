@@ -1,5 +1,5 @@
 <#import "parts/common.ftlh" as c>
 <@c.page>
-    <div>Hello, user</div>
-    <a href ="/main">Main page</a>
+    <h5>Добро пожаловать в SocialNetwork!</h5>
+    <div>Платформа, где вы можете делиться моментами и участвовать в обсуждениях. Откройте для себя мир коротких сообщений и свежих новостей!</div>
 </@c.page>
